@@ -15,9 +15,9 @@
       "email": "gennadiy.sevalnev@mail.ru"
     }
   ],
-  "homepage": "https://github.com/ge1i0n/bitrix-blade",
+  "homepage": "https://github.com/Alxbron/bitrix-blade",
   "require": {
-    "php": "^7.3|^8.0",
+    "php": "^7.3|^8.0|^8.1",
     "illuminate/config": "9.*",
     "illuminate/container": "9.*",
     "illuminate/view": "9.*",
@@ -32,5 +32,11 @@
     "files": [
       "src/functions.php"
     ]
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Alxbron/bitrix-hermitage.git"
+	}
+  ]
 }
